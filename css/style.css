@@ -33,15 +33,15 @@
 .container-footer img {
   width: 2.7rem;
 }
-#carouselExampleControls{
+/* #carouselExampleControls{
   border-radius: 5%;
   margin: auto;
   width: 60vw;
 }
 .imgSize:hover{
-  transform: scale(1.10);
+  transform: scale(1.10); */
 
-}
+/* } */
 .imgSize{
   transition: all 300ms;
 }
