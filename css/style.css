@@ -115,6 +115,11 @@
 
 .img12 {
   grid-area: img12; }
+
+
+
+
+
   @media only screen and (max-width: 768px){
     .container-gallery {
       display: grid; 
@@ -127,7 +132,7 @@
         "img7 img8 img9"
         "img10 img11 img12"; }
     }
-    @media only screen and (max-width: 600px){
+    @media only screen and (min-width: 300px) and (max-width: 600px){
     .container-gallery {
       display: grid; 
       grid-template-columns: 1fr 1fr; 
