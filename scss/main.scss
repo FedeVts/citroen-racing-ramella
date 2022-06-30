@@ -1,26 +1,12 @@
-    @import 'header';
-    @import 'principal';
-    @import 'footer';
-    @import 'general-styles';
-    @import 'formulario';
-    @import 'historia';
-    @import 'background-img';
-    @import 'galeria';
-    @import 'fonts';
-    @import 'contenido-presente';
-    
-    // .extend{
-    //     @extend %estilosParrafo;
-    // }
+@import "header";
+@import "principal";
+@import "footer";
+@import "historia";
+@import "background-img";
+@import "galeria";
+@import "fonts";
+@import "contenido";
 
-
-
-    
-    
-        
-        
-    
-      
-    
-    
-    
+// .extend{
+//     @extend %estilosParrafo;
+// }
