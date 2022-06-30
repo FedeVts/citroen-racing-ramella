@@ -83,6 +83,10 @@
   font-family: wrc_clean;
   src: url(../fonts/WRCCleanBold.ttf); }
 
+@font-face {
+  font-family: wrc_roman;
+  src: url(../fonts/WRCCleanRoman.ttf); }
+
 .wrc {
   font-family: wrc_clean; }
 
