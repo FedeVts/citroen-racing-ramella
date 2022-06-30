@@ -7,7 +7,11 @@
     @import 'background-img';
     @import 'galeria';
     @import 'fonts';
-    @import 'contenido-presente'
+    @import 'contenido-presente';
+    
+    .extend{
+        @extend %estilosParrafo;
+    }
 
 
 

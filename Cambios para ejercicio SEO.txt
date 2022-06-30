@@ -2,8 +2,4 @@
 -Se agregó una etiqueta meta Keywords en todas las páginas del sitio
 -Se agregó una etiqueta meta description en todos los sitios
 
-SASS
 
-en _servicios de sass se encuentra un uso de Extend
-en _contacto de sass se encuentra un uso de mixin
-en _Index se agrega un map y un map get
