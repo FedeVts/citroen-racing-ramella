@@ -103,6 +103,11 @@
   box-shadow: 0px 2px 20px;
   margin-bottom: 50px;
   text-align: start; }
+  .contenido h1 h2 {
+    text-align: center;
+    font-family: wrc_clean; }
+    .contenido h1 h2 img {
+      border-radius: 10px; }
 
 #titulo {
   font-family: wrc_clean;
