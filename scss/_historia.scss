@@ -1,3 +1,7 @@
+@mixin color{
+  color: red;
+}
+
 .container-1 {
   display: flex;
   justify-content: center;
@@ -26,6 +30,8 @@
   align-items: center;
 }
 .h2 {
+  @include color
+  ;
   grid-area: h2;
 }
 
@@ -48,3 +54,4 @@
     border-radius: 5%;
   }
  }
+

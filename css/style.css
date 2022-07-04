@@ -48,6 +48,7 @@
   align-items: center; }
 
 .h2 {
+  color: red;
   grid-area: h2; }
 
 .texto1 {
@@ -91,13 +92,29 @@
   font-family: wrc_clean; }
 
 .contenido {
+  font-family: wrc_roman;
+  display: flex;
+  justify-content: center;
   width: 100%;
   max-width: 1400px;
   min-height: 850px;
   margin: 0 auto 100px;
   padding: 40px;
   box-shadow: 0px 2px 20px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  text-align: start; }
+
+#titulo {
+  font-family: wrc_clean;
+  color: black;
+  background-color: beige; }
+
+.margenes {
+  width: 70%; }
+
+.video {
+  display: flex;
+  justify-content: center; }
 
 .container-fluid {
   background: #fa7070;

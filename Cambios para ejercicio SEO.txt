@@ -2,4 +2,6 @@
 -Se agregó una etiqueta meta Keywords en todas las páginas del sitio
 -Se agregó una etiqueta meta description en todos los sitios
 
+mixin
+-se agregó mixin a todos los H1 de la pagina desde variables/_extend.scss
 
