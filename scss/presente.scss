@@ -1,34 +1,11 @@
 @import "../variables/extend";
 
-.contenido {
-  font-family: wrc_roman;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
-  min-height: 850px;
-  margin: 0 auto 100px;
 
-  padding: 40px;
-  box-shadow: 0px 2px 20px;
-  margin-bottom: 50px;
-  text-align: start;
-  h1 h2 {
-    text-align: center;
-    font-family: wrc_clean;
-   
-      img {
-        border-radius: 10px;
-      }
-    }
-  }
 
 #titulo {
   @include fuente;
 }
-.margenes {
-  width: 70%;
-}
+
 .video {
   display: flex;
   justify-content: center;

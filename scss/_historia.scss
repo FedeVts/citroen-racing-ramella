@@ -1,4 +1,4 @@
-@mixin color{
+@mixin color {
   color: red;
 }
 
@@ -9,7 +9,8 @@
   align-items: center;
   align-content: center;
   .container-2 {
-    display: flex;
+    @extend .container-1;
+    
   }
 }
 .contenedor-main {
@@ -30,8 +31,7 @@
   align-items: center;
 }
 .h2 {
-  @include color
-  ;
+  @include color;
   grid-area: h2;
 }
 
@@ -46,12 +46,40 @@
 .texto2 {
   grid-area: texto2;
 }
-.centrado{
+.centrado {
   align-content: center;
 }
- .text-center{
-  img{
+.text-center {
+  img {
     border-radius: 5%;
   }
- }
+}
+.contenido {
+  font-family: wrc_clean;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  min-height: 850px;
+  margin: 0 auto 100px;
 
+  padding: 40px;
+  box-shadow: 0px 2px 20px;
+  margin-bottom: 50px;
+  text-align: start;
+  .margenes {
+    width: 70%;
+    img {
+      border-radius: 50px;
+    }
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    p {
+      margin-top: 30px;
+    }
+  }
+}

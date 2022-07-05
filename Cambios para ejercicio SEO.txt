@@ -4,4 +4,6 @@
 
 mixin
 -se agregó mixin a todos los H1 de la pagina desde variables/_extend.scss
+extend
+se agrego extend en en _historia.scss
 
